@@ -1,0 +1,123 @@
+clearfix::after,
+.section::after,
+.container-menu::after,
+.section-aboutme::after,
+.container-aboutme::after,
+.container-content::after {
+	content: '';
+	clear: both;
+	display: table;
+	overflow: hidden;
+}
+
+img {
+	width: 100%;
+}
+
+.arrow-down img {
+	width: 70%;
+}
+
+.section-header {
+	background-image: url('..//img/bg/sunset.png');
+	background-size: cover;
+	background-position: bottom center;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 18%;
+	position: relative;
+}
+
+.arrow-down {
+	position: fixed;
+	top:  70px;
+	right:  0;
+	width: 52px;
+	height: 52px;
+	padding-top: 5px;
+	border:  none;
+	background-color: #36b7b3;
+}
+
+.main-logo {
+	margin: auto;
+	width: 393px;
+	padding-top: 10%;
+}
+
+.triangle-down {
+	width: 32px;
+	height: 32px;
+	background-color: #36b7b3;
+	border: none;
+	border-radius: 50px;
+	position: absolute;
+	bottom: 14%;
+}
+
+.triangle-down img {
+	margin-top: 5px;
+}
+
+.section-mainmenu {
+	padding: 25px;
+	border: 1px solid #36b7b3;
+	background-color: #36b7b3;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.section-mainmenu a {
+	color: #f8f8f8;
+	padding: 13px 25px;
+	font-size: 14px;
+	margin: 0 10px;
+}
+
+.section-mainmenu a:hover {
+	background-color: #d55727;
+}
+
+.section-aboutme {
+	padding: 50px 0 70px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.container-aboutme {
+	max-width: 900px;
+	margin: 20px auto;
+	position: relative;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 200;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+
+.aboutme-txt {
+	text-align: left;
+	width: 290px;
+	float: left;
+	font-family: Helvetica;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	padding: 20px 0;
+}
+
+.aboutme-txt p {
+	margin: 20px 0;
+}
+
+.aboutme-img-main {
+	width: 67%;
+    position:  absolute;
+    right: 0;
+    top: 0;
+    margin-right: -130px;
+    margin-top: -115px;
+}
