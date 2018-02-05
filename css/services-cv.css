@@ -5,6 +5,7 @@
 }
 
 .containerServices {
+	padding-top: 20px;
 	max-width: 790px; 
 	min-width: 210px;
 	margin: 0 auto;

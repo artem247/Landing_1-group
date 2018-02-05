@@ -1,15 +1,16 @@
 
 .section-portfolio {
-	padding: 30px 0;
+	padding: 40px 0;
 }
 .header-portfolio {
 	text-align: center;
 	position: relative;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 
 }
-
-
+.header-container {
+	padding-bottom: 40px;
+}
 
 
 
@@ -17,20 +18,22 @@
 
 .section-clients::before{
 	left: 48.5%;
-	top: -100px;
+	top: 0;
     
     position: absolute;
 	content: url('..//pics/triangle.png');
 }
 
  .section-clients{
- 	margin-top: 120px;
+
+ 	padding: 60px 0;
  	box-sizing:  border-box;
  	position: relative;
  }
 	
 
 .thumbnails  {
+	padding-top: 20px;
 	font-size: 0px;
 
 
@@ -42,7 +45,8 @@
 	display: inline-block;
 	margin: 0;
 	width: 33.3%;
-	height: 300px;
+	padding-top: 22.5%;
+
 	background-repeat: no-repeat;
 	
 
@@ -82,6 +86,7 @@
 .container-clients {
 	max-width: 950px;
 	margin: 0 auto;
+	padding-bottom: 20px
 }
 
 .client-logo-container {
@@ -90,10 +95,9 @@
 	font-size: 0px;
 	display: inline-block;
 	margin: 0;
-	width: 32%;
-	height: 100px;
+	width: 33%;
 	background-repeat: no-repeat;
-	padding: 0 40px;
+	padding: 30px 60px;
 }
 
 .client-logo-container img {
@@ -101,4 +105,5 @@
 	vertical-align: middle;
 
 }
+
 
