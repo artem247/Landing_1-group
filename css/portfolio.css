@@ -1,0 +1,109 @@
+
+.section-portfolio {
+	padding: 40px 0;
+}
+.header-portfolio {
+	text-align: center;
+	position: relative;
+	padding-bottom: 20px;
+
+}
+.header-container {
+	padding-bottom: 40px;
+}
+
+
+
+
+
+.section-clients::before{
+	left: 48.5%;
+	top: 0;
+    
+    position: absolute;
+	content: url('..//pics/triangle.png');
+}
+
+ .section-clients{
+
+ 	padding: 60px 0;
+ 	box-sizing:  border-box;
+ 	position: relative;
+ }
+	
+
+.thumbnails  {
+	padding-top: 20px;
+	font-size: 0px;
+
+
+}
+.portfolio-img-container {
+	background-size: cover;
+	box-sizing:  border-box;
+	font-size: 0px;
+	display: inline-block;
+	margin: 0;
+	width: 33.3%;
+	padding-top: 22.5%;
+
+	background-repeat: no-repeat;
+	
+
+
+}
+
+/* .portfolio-img-container figure {
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+} */
+
+.image-1 {
+	background-image: url('..//img/portfolio/p-item-spy.png')
+}
+
+.image-2 {
+	background-image: url('..//img/portfolio/p-item-pray.png')
+}
+
+.image-3 {
+	background-image: url('..//img/portfolio/p-item-spider.png')
+}
+
+.image-4 {
+	background-image: url('..//img/portfolio/p-item-mountains.png')
+}
+
+.image-5 {
+	background-image: url('..//img/portfolio/p-item-plane.png')
+}
+
+.image-6 {
+	background-image: url('..//img/portfolio/p-item-georgia.png')
+}
+
+.container-clients {
+	max-width: 950px;
+	margin: 0 auto;
+	padding-bottom: 20px
+}
+
+.client-logo-container {
+	text-align: center;
+	box-sizing:  border-box;
+	font-size: 0px;
+	display: inline-block;
+	margin: 0;
+	width: 33%;
+	background-repeat: no-repeat;
+	padding: 30px 60px;
+}
+
+.client-logo-container img {
+	display: inline-block;
+	vertical-align: middle;
+
+}
+
+
