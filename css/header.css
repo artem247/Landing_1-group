@@ -79,7 +79,7 @@ img {
 }
 
 .section-aboutme {
-	padding: 50px 0 70px;
+	padding: 50px 10px 70px;
 	text-align: center;
 	overflow: hidden;
 }
@@ -120,4 +120,86 @@ h2 {
     top: 0;
     margin-right: -130px;
     margin-top: -115px;
+}
+
+@media screen and (max-width: 1165px) {
+	.aboutme-img-main {
+		margin-right: -20px;
+		margin-top: -80px;
+	}
+}
+
+@media screen and (max-width: 935px) {
+	.aboutme-img-main {
+		width: 60%;
+		margin-right: 8px;
+		margin-top: -40px;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	.section-mainmenu,
+	.section-mainmenu a {
+		padding: 10px;
+	}
+
+	.aboutme-img-main {
+		width: 50%;
+		margin-right: 20px;
+		margin-top: -5px;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	.section-aboutme {
+		padding: 30px 10px;
+	}
+
+	.aboutme-txt {
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
+
+	.aboutme-img-main {
+		width: 100%;
+		position: static;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 590px) {
+	.arrow-down {
+		top: 40px;
+		width: 30px;
+		height: 30px;
+	}
+
+	.triangle-down {
+		bottom: 11%;
+	}
+
+	.section-mainmenu a {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.main-logo {
+		width: 220px;
+	}
+
+	.triangle-down {
+		width: 25px;
+		height: 25px;
+		bottom: 7%;
+	}
+
+	.container-aboutme h2 {
+		font-size: 30px;
+	}
+
+	.section-mainmenu a {
+		padding: 5px;
+	}
 }
