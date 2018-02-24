@@ -86,7 +86,8 @@
 .container-clients {
 	max-width: 950px;
 	margin: 0 auto;
-	padding-bottom: 20px
+	padding-bottom: 20px;
+	font-size: 0;
 }
 
 .client-logo-container {
@@ -97,7 +98,7 @@
 	margin: 0;
 	width: 33%;
 	background-repeat: no-repeat;
-	padding: 30px 60px;
+	padding: 4% 5%;
 }
 
 .client-logo-container img {
@@ -105,5 +106,77 @@
 	vertical-align: middle;
 
 }
+
+
+@media screen and (max-width: 1165px) {
+
+}
+
+@media screen and (max-width: 935px) {
+	.portfolio-img-container {
+	background-size: cover;
+	box-sizing:  border-box;
+	font-size: 0px;
+	display: inline-block;
+	margin: 0;
+	width: 50%;
+	padding-top: 33.75%;
+
+	background-repeat: no-repeat;
+}
+
+	
+.client-logo-container {
+	text-align: center;
+	box-sizing:  border-box;
+	font-size: 0px;
+	display: inline-block;
+	margin: 0;
+	width: 50%;
+	background-repeat: no-repeat;
+	padding: 7% 10%;
+	}
+
+
+	}
+	
+
+
+@media screen and (max-width: 670px) {
+	.portfolio-img-container {
+	background-size: cover;
+	box-sizing:  border-box;
+	font-size: 0px;
+	display: inline-block;
+	margin: 0;
+	width: 100%;
+	padding-top: 52%;
+
+	background-repeat: no-repeat;
+	
+
+
+	}
+
+	.client-logo-container {
+	text-align: center;
+	box-sizing:  border-box;
+	font-size: 0px;
+	display: inline-block;
+	margin: 0;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding: 8% 30%;
+	}
+	
+}
+
+
+@media screen and (max-width: 400px) {
+	
+}
+
+
+
 
 
