@@ -46,6 +46,33 @@
 .contacts a {
 	color:  #fff;
 }
+@media only screen and (max-width: 964px) {
+
+	.contact_form {
+		position: relative;
+		padding: 6% 15%;	}
+
+	.contact_form {
+		width: 70%;
+	}
+	.send_button {
+		position: relative;
+		left: 40%;
+		width: 40%;
+	}
+	.contacts {
+		position: relative;
+		padding: 1% 10%;
+    	width: 80%;
+	}
+	.email,
+	.phone,
+	.skype {
+		text-align: center;
+		width: 80%;
+	}
+
+}
 
 .line_form,
 .your_message {
